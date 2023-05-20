@@ -14,16 +14,54 @@
 </head>
 
 <body>
-  <header>
-    <!-- place navbar here -->
-  </header>
-  <main>
-
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
+  <div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Tabla de persona que me caen mal</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="nombre">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="">Edad</label>
+            <input type="text" name="Edad" id="Edad" class="form-control" placeholder="Edad">
+        </div>
+    </div>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Condicion</option>
+        <option value="1">Boba</option>
+        <option value="2">Linda</option>
+      </select>
+      <div class="row">
+        <div class="col">
+            <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+      </div>
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+                <table class="table table-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">edad</th>
+                            <th scope="col">condicion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
