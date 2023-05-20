@@ -4,8 +4,9 @@ boton.addEventListener("click", (e)=>{
     let nombre=document.getElementById("nombre").value;
     let edad= document.getElementById("edad").value;
     let disca=document.getElementById("selector").value;
+    let cuerpo=document.getElementById("cuerpo");
     
-    document.getElementById("cuerpo").innerHTML += `<tr>
+    cuerpo.innerHTML += `<tr>
     <td>${nombre}</td>
     <td>${edad}</td>
     <td>${disca}</td>
