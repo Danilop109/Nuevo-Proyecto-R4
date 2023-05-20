@@ -6,10 +6,15 @@ boton.addEventListener("click", (e)=>{
     let disca=document.getElementById("selector").value;
     let cuerpo=document.getElementById("cuerpo");
     
-    cuerpo.innerHTML += `<tr>
+    let simulado= `<tr>
     <td>${nombre}</td>
     <td>${edad}</td>
     <td>${disca}</td>
 </tr>`
+cuerpo.innerHTML += simulado
+
+document.getElementById("nombre").value= "";
+document.getElementById("edad").value= "";
+document.getElementById("selector").value= "";
 
 })
